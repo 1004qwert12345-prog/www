@@ -5,4 +5,4 @@ count = 0
 if st.button("증가"):
     count = count +1 
 
-stmarkdown(f"##혀ㄴ재숫자:'{count}'")
+st.markdown(f"##현재 숫자:'{count}'")
