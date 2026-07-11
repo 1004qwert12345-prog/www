@@ -1,2 +1,5 @@
 streamlit
 openai
+
+
+user_id = st.text_input("아이디(ID)를 입력하세요", placeholder="example_user")
