@@ -2,7 +2,7 @@ import streamlit as st
 
 
 name = st.text_input("이름", placeholder="이름")
-class = st.radio("학년", ["1", "2","3"], horizontal=True)
+clas = st.radio("학년", ["1", "2","3"], horizontal=True)
 ban = st.text_input("반", placeholder="반")
 
 level = st.select_slider("난이도",options=["매우쉬움", "쉬움", "보통", "어려움", "지옥"],value="보통")
